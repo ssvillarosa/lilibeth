@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #edbdb6;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Navbar */
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a {
+  padding: 20px;
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #edbdb6;
+  border-bottom: 3px solid;
+}
+
+/* Logo */
+#logo {
+  font-family: "Imperial Script", cursive;
+  font-size: 2rem;
+  font-weight: 100;
+  min-width: 180px;
+}
+
+#logo p {
+  display: inline;
+}
+
+#logo strong {
+  font-size: 3rem;
+  color: #edbdb6;
+}
+
+/* Home */
+#home .flex-item img {
+  height: 300px;
+  margin: 20px auto;
+  display: block;
+  transform: rotate(-10deg);
+}
+
+/* Author */
+#author .flex-item img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+}
+
+#author .flex-horizontal {
+  align-items: center;
+}
+
+/* About */
+#about .flex-item {
+  min-width: 300px;
+}
+
+#about .flex-item iframe {
+  min-width: 300px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Feedback */
+#feedback .flex-item img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+}
+
+.footer .container * {
+  margin: 10px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.social a:hover {
+  color: #edbdb6;
+}
