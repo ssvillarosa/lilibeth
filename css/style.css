@@ -218,6 +218,23 @@ section header {
 }
 
 @media (max-width: 600px) {
+  .flex-horizontal {
+    flex-direction: column;
+  }
+
+  #get_a_copy .flex-item {
+    width: 100%;
+  }
+
+  #page_header {
+    position: static;
+  }
+
+  .container h1,
+  .container h2 {
+    text-align: center;
+  }
+
   .navbar .container {
     flex-direction: column;
     height: 100%;
@@ -239,10 +256,46 @@ section header {
   .navbar nav,
   #author .flex-item img {
     width: 100%;
+    min-width: 100px;
+    margin: 0 auto 20px auto;
   }
 
   .navbar a:hover {
     color: var(--primary-color);
     border-bottom: none;
+  }
+
+  #about .verses p {
+    text-align: justify;
+  }
+
+  .flex-item {
+    padding: 10px 20px;
+  }
+
+  #reviews .flex-item img {
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+
+  #review .flex-item,
+  #get_a_copy .container .flex-item p,
+  #reviews figcaption {
+    text-align: center;
+  }
+
+  #reviews q {
+    display: block;
+    text-align: justify;
+  }
+
+  #get_a_copy a p {
+    overflow-wrap: break-word;
+    display: inline;
+  }
+
+  .footer p {
+    text-indent: 0;
+    text-align: center;
   }
 }
