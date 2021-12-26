@@ -216,3 +216,33 @@ section header {
 .social a:hover {
   color: var(--primary-color);
 }
+
+@media (max-width: 600px) {
+  .navbar .container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar a {
+    padding: 0;
+  }
+
+  .navbar nav,
+  #author .flex-item img {
+    width: 100%;
+  }
+
+  .navbar a:hover {
+    color: var(--primary-color);
+    border-bottom: none;
+  }
+}

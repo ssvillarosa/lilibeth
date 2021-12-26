@@ -19,6 +19,7 @@
 
 .flex-item {
   padding: 30px 50px;
+  transition: all 1s ease-in-out;
 }
 
 .flex-horizontal {
@@ -37,4 +38,9 @@
 
 .rounded-border {
   border-radius: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
 }
