@@ -36,6 +36,18 @@
   flex: 1;
 }
 
+.btn {
+  background: var(--primary-color);
+  padding: 15px 20px;
+  color: #333;
+  font-weight: 900;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
 .rounded-border {
   border-radius: 10px;
 }

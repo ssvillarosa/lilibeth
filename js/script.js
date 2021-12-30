@@ -2,7 +2,7 @@
 const SCROLL_OFFSET = -100;
 
 // Page scrolling
-const links = document.querySelectorAll("#navbar nav li a");
+const links = document.querySelectorAll("#navbar nav li a, #home a");
 links.forEach((link) => {
   link.addEventListener("click", scrollToView.bind(link));
 });
